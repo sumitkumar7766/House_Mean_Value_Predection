@@ -1,0 +1,19 @@
+# --- General Python Files ---
+__pycache__/
+*.pyc
+
+# --- Virtual Environments ---
+# Ignore the common virtual environment directory names
+venv/
+.venv/
+
+# --- Machine Learning Artifacts ---
+# Ignore the specific model file you asked about
+Python-Server/model.pkl
+Python-Server/pipeline.pkl
+backend/node_modules
+
+# Ignore any other model files, logs, or results
+*.h5
+*.onnx
+/data/results/
